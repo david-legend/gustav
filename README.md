@@ -1,7 +1,7 @@
 # Amor
 
 <h1 align="center">
-  <a href="https://david-legend.github.io/amor/" target="_blank">https://david-legend.github.io/amor/</a>
+  <a href="https://david-legend.github.io/gustav/" target="_blank">https://david-legend.github.io/gustav/</a>
 </h1>
 
 <p align="center">
