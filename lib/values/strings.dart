@@ -19,7 +19,7 @@ class StringConst {
   static const String PROFESSIONAL_POSITION =
       "Solar PV Developer";
   static const String CATCH_LINE = "Building the Future of Solar with you";
-  static const String EMAIL = "davidcobbina47@gmail.com";
+  static const String EMAIL = "theodore197andoh@gmail.com";
   static const String EMAIL_URL = "mailto:<$EMAIL>?subject=&body=";
 
   //About Section
@@ -43,19 +43,19 @@ class StringConst {
   static const String EDUCATION = "Education";
 
   //Education Section Data
-  static const String EDUCATION_CURRENT_MONTH_YEAR = "June 2021";
-  static const String EDUCATION_STARTED_MONTH_YEAR = "August 2014";
+  static const String EDUCATION_CURRENT_MONTH_YEAR = "June 2022";
+  static const String EDUCATION_STARTED_MONTH_YEAR = "September 2014";
   static const String WORK_CURRENT_MONTH_YEAR = "June 2018";
   static const String WORK_STARTED_MONTH_YEAR = "Sept 2020";
 
-  static const String EDUCATION_1 = "Msc. Information Technology";
-  static const String EDUCATION_1_URL = "https://www.cmu.edu/";
+  static const String EDUCATION_1 = "Msc. Environmental Resource Mgt.";
+  static const String EDUCATION_1_URL = "https://www.b-tu.de/";
 
 //  static const String POSITION_1 = "Software Engineer Intern";
   static const String EDUCATION_1_DESC =
-      "Majoring in applied machine learning and Data science.";
-  static const String LOCATION_1 = "Carnegie Mellon University, Pit, USA";
-  static const String DURATION_1 = "Sept. 2020 - Dec. 2021";
+      "Majoring in Environmental Engineering.";
+  static const String LOCATION_1 = "Brandenburg Technical University, Cottbus";
+  static const String DURATION_1 = "Oct. 2020 - Oct. 2023";
 
   static const String EDUCATION_2 = "Bsc. Agricultural Engineering";
   static const String EDUCATION_2_URL = "https://www.knust.edu.gh/";
@@ -74,7 +74,7 @@ class StringConst {
   static const String WORK_1_ROLE_3 =
       "Solar Photovoltaic installation";
   static const String WORK_1_LOCATION = "Cottbus, Germany";
-  static const String WORK_1_DURATION = "January 2022 - May 2022";
+  static const String WORK_1_DURATION = "May 2022 - Present";
 
 
   static const String WORK_2 = "Freelance";
@@ -83,9 +83,9 @@ class StringConst {
   static const String WORK_2_ROLE_1 =
       "Building and automating feeding systems for Animals in Agricultural farms in Ghana";
   static const String WORK_2_ROLE_2 =
-      "Interfaced with clients on a weekly basis, providing technological expertise";
+      "Automating pumps for Individual clients";
   static const String WORK_2_ROLE_3 =
-      "Modified existing software to correct errors, upgrade interfaces and improve performance";
+      "Installation of tracking devices for Automotive";
   static const String WORK_2_LOCATION = "Ghana";
   static const String WORK_2_DURATION = "January 2020 - December 2020";
 
@@ -93,15 +93,17 @@ class StringConst {
   static const String WORK_3_URL = "https://www.nestle-cwa.com/en";
   static const String WORK_3_POSITION = "Quality Assurance ";
   static const String WORK_3_ROLE_1 =
-      "Developed and shipped highly interactive web applications for Apple Music using Ember.js";
+      "Using of SAP to Track Products in theWarehouse. WorkingWith Quality Assurance Laboratory to check the quality of products";
   static const String WORK_3_ROLE_2 =
-      "Automating pumps for Individual clients";
+      "Taking Temperature and Humidity Measurement";
   static const String WORK_3_ROLE_3 =
-      "Installation of tracking devices for Automotive";
+      "Interpretation of monthly data gathered from the warehouse with Microsoft excel";
+  static const String WORK_3_ROLE_4 =
+      "Making a monthly report with Microsoft Power point for products";
   static const String WORK_3_LOCATION = "Tema-Industrial Area,Ghana";
   static const String WORK_3_DURATION = "October 2018 - September 2019";
 
-  static const String WORK_4 = "Logs and Lumber Limited-Intern";
+  static const String WORK_4 = "Logs and Lumber Limited";
   static const String WORK_4_URL = "";
   static const String WORK_4_POSITION = "Junior Plant Engineer ";
   static const String WORK_4_ROLE_1 =
@@ -121,12 +123,14 @@ class StringConst {
   static const String SKILLS = "Skills";
   static const String CERTIFICATIONS = "Certifications";
 
+  static const String PV_SYST = "PvSyst";
+  static const String RET_SCREEN = "RETscreen";
+  static const String AUTOCAD = "Autocad";
   static const String PYTHON = "Python";
-  static const String JAVA = "Java";
-  static const String C_PLUS_PLUS = "C++";
-  static const String JAVASCRIPT = "Javascript";
-  static const String HTML = "HTML";
-  static const String CSS = "CSS";
+  static const String EXCEL = "Excel";
+  static const String C_PLUS_PLUS = "C/C++";
+  static const String SOLAR_PANEL_INSTALLATION = "Solar Panel installation";
+  static const String AGRIC_ENG = "Agric Engineering";
 
   static const IOT_CERT = "IOT Certification";
   static const RISA = "RISA";
@@ -163,7 +167,8 @@ class StringConst {
   static const String FIND_ME = "Find me on..";
 
   //URL Links
-  static const String LINKED_IN_URL = "https:linkedin.com/in/";
+  static const String LINKED_IN_URL = "https://www.linkedin.com/in/theodore-andoh-15613b183/";
+  static const String TELEGRAM_URL = "https://t.me/theodore_Andoh";
   static const String GITHUB_URL = "https://github.com/";
   static const String TWITTER_URL = "http://twitter.com/";
   static const String DAVID_LEGEND_URL = "https://davidcobbina.com/#/";

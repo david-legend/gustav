@@ -87,13 +87,11 @@ class HeaderSection extends StatelessWidget {
                   SocialIcons(
                     icons: [
                       FontAwesomeIcons.linkedin,
-                      FontAwesomeIcons.github,
-                      FontAwesomeIcons.twitter,
+                      FontAwesomeIcons.telegram,
                     ],
                     socialLinks: [
                       StringConst.LINKED_IN_URL,
-                      StringConst.GITHUB_URL,
-                      StringConst.TWITTER_URL,
+                      StringConst.TELEGRAM_URL,
                     ],
                     spacing: kSpacing20,
                   ),

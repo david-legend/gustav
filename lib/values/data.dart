@@ -54,6 +54,7 @@ class Data {
         StringConst.WORK_3_ROLE_1,
         StringConst.WORK_3_ROLE_2,
         StringConst.WORK_3_ROLE_3,
+        StringConst.WORK_3_ROLE_4,
       ],
       location: StringConst.WORK_3_LOCATION,
       duration: StringConst.WORK_3_DURATION,
@@ -73,12 +74,14 @@ class Data {
   ];
 
   static List<SkillData> skillData = [
-    SkillData(skillLevel: 95, skillName: StringConst.PYTHON),
-    SkillData(skillLevel: 70, skillName: StringConst.JAVA),
-    SkillData(skillLevel: 78, skillName: StringConst.C_PLUS_PLUS),
-    SkillData(skillLevel: 80, skillName: StringConst.JAVASCRIPT),
-    SkillData(skillLevel: 70, skillName: StringConst.HTML),
-    SkillData(skillLevel: 80, skillName: StringConst.CSS),
+    SkillData(skillLevel: 90, skillName: StringConst.PV_SYST),
+    SkillData(skillLevel: 90, skillName: StringConst.RET_SCREEN),
+    SkillData(skillLevel: 75, skillName: StringConst.AUTOCAD),
+    SkillData(skillLevel: 80, skillName: StringConst.PYTHON),
+    SkillData(skillLevel: 85, skillName: StringConst.EXCEL),
+    SkillData(skillLevel: 75, skillName: StringConst.C_PLUS_PLUS),
+    SkillData(skillLevel: 90, skillName: StringConst.SOLAR_PANEL_INSTALLATION),
+    SkillData(skillLevel: 95, skillName: StringConst.AGRIC_ENG),
   ];
   static List<CertificationData> certificationData = [
     CertificationData(
