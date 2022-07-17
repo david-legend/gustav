@@ -2,7 +2,7 @@ part of values;
 
 class StringConst {
   //strings
-  static const String APP_NAME = "Jade Macy Portfolio";
+  static const String APP_NAME = "Theodore Andoh Portfolio";
 
   //Nav Section
   static const String NAME_ABBREV = "TA";
@@ -15,7 +15,6 @@ class StringConst {
   //Header Section
   static const String INTRO = "Hello! I'm";
 
-//  static const String NAME = "James Martin";
   static const String NAME = "Theodore Andoh";
   static const String PROFESSIONAL_POSITION =
       "Solar PV Developer";

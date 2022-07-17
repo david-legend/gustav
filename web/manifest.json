@@ -1,11 +1,11 @@
 {
-    "name": "Jade Macy Portfolio",
-    "short_name": "Jade Macy CV",
+    "name": "Theodore Andoh Portfolio",
+    "short_name": "Theodore Andoh CV",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Portfolio Design detailing my works, achievements, CV and work experience",
+    "description": "Portfolio Design detailing the works, achievements, CV and work experience of Theodore Andoh",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
