@@ -19,6 +19,13 @@ class ImagePath {
   static const String JADE_MACY = "$imageDir/jade_macy.png";
 
   //Portfolio
+  static const String SOLAR_PROJECT_1 = "$imageDir/solar_field_1.png";
+  static const String SOLAR_PROJECT_2 = "$imageDir/solar_field_2.png";
+  static const String SOLAR_PROJECT_3 = "$imageDir/solar_field_3.png";
+  static const String SOLAR_PROJECT_4 = "$imageDir/solar_field_4.png";
+  static const String HOME_BUILDING = "$imageDir/home_building.png";
+  static const String SOLAR_DESIGN = "$imageDir/solar_design.png";
+
   static const String art_1 = "$imageDir/art_1.jpg";
   static const String art_2 = "$imageDir/art_2.jpg";
   static const String art_3 = "$imageDir/art_3.jpg";

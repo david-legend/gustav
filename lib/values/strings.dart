@@ -144,14 +144,17 @@ class StringConst {
   static const UDACITY = "Udacity";
 
   //Portfolio Section
-  static const String PORTFOLIO = "Portfolio";
+  static const String PORTFOLIO = "Portfolio Projects";
   static const String GRAPHICS = "Graphics";
   static const String APP_DESIGN = "App Design";
   static const String BRANDING = "Branding";
   static const String GAME_DESIGN = "Game Design";
   static const String WEB_DESIGN = "Web Design";
   static const String ALL = "All";
-  static const String DIGITAL_WALL_POSTER = "Digital Wall Poster";
+  static const String SOLAR_PROJECT_1 = "Solar Project 1";
+  static const String SOLAR_PROJECT_2 = "Solar Project 2";
+  static const String SOLAR_PROJECT_3 = "Solar Project 3";
+  static const String SOLAR_PROJECT_4 = "Solar Project 4";
   static const String SPACE_STORY = "Space Story";
   static const String STREET_ART = "Street Art";
   static const String SOUL_TEARS = "Soul Tears";

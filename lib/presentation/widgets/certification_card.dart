@@ -1,4 +1,5 @@
 import 'package:amor/presentation/layout/adaptive.dart';
+import 'package:amor/presentation/widgets/empty.dart';
 import 'package:flutter/material.dart';
 import 'package:amor/presentation/widgets/spaces.dart';
 
@@ -38,6 +39,7 @@ class CertificationCard extends StatefulWidget {
     this.border,
     this.boxShadow = const [Shadows.elevationShadow],
     this.duration = 1000,
+    this.hasBottomTitle = false,
     this.onTap,
   });
 
@@ -55,6 +57,7 @@ class CertificationCard extends StatefulWidget {
   final TextStyle? actionTitleTextStyle;
   final int duration;
   final bool hasActionTitle;
+  final bool hasBottomTitle;
   final GestureTapCallback? onTap;
 
   @override
@@ -112,85 +115,103 @@ class _CertificationCardState extends State<CertificationCard>
   @override
   Widget build(BuildContext context) {
     TextTheme textTheme = Theme.of(context).textTheme;
-    return InkWell(
-      onTap: widget.onTap,
-      child: Container(
-        width: widget.width,
-        height: widget.height,
-        decoration: BoxDecoration(
-          boxShadow: widget.boxShadow,
-          border: widget.border,
-        ),
-        child: MouseRegion(
-          onEnter: (e) => _mouseEnter(true),
-          onExit: (e) => _mouseEnter(false),
-          child: Stack(
-            children: [
-              Image.asset(
-                widget.imageUrl,
-                width: widget.width,
-                height: widget.height,
-                fit: BoxFit.cover,
-              ),
-              _hovering
-                  ? FadeTransition(
-                      opacity: _opacityAnimation,
-                      child: Container(
-                        width: widget.width,
-                        height: widget.height,
-                        color: widget.hoverColor,
-                        child: Column(
-                          children: [
-                            Spacer(flex: 1),
-                            SelectableText(
-                              widget.title,
-                              textAlign: TextAlign.center,
-                              style: widget.titleTextStyle ??
-                                  textTheme.headline4?.copyWith(
-                                    fontSize: widthOfScreen(context) >
-                                            RefinedBreakpoints().tabletSmall
-                                        ? Sizes.TEXT_SIZE_34
-                                        : Sizes.TEXT_SIZE_24,
-                                    color: AppColors.white,
-                                  ),
-                            ),
-                            SpaceH4(),
-                            SelectableText(
-                              widget.subtitle,
-                              textAlign: TextAlign.center,
-                              style: widget.subtitleTextStyle ??
-                                  textTheme.bodyText1?.copyWith(
-                                    color: AppColors.white,
-                                    fontSize: Sizes.TEXT_SIZE_16,
-                                  ),
-                            ),
-                            SpaceH16(),
-                            widget.hasActionTitle
-                                ? SelectableText(
-                                    widget.actionTitle,
-                                    textAlign: TextAlign.center,
-                                    style: widget.actionTitleTextStyle ??
-                                        textTheme.subtitle1?.copyWith(
-                                          color: AppColors.secondaryColor,
-                                        ),
-                                  )
-                                : Container(),
-                            SpaceH4(),
-                            HorizontalBar(color: AppColors.secondaryColor),
-                            Spacer(flex: 1),
-                          ],
-                        ),
+    return Column(
+      children: [
+        InkWell(
+          onTap: widget.onTap,
+          child: Container(
+            width: widget.width,
+            height: widget.height,
+            decoration: BoxDecoration(
+              boxShadow: widget.boxShadow,
+              border: widget.border,
+            ),
+            child: MouseRegion(
+              onEnter: (e) => _mouseEnter(true),
+              onExit: (e) => _mouseEnter(false),
+              child: Stack(
+                children: [
+                  Image.asset(
+                    widget.imageUrl,
+                    width: widget.width,
+                    height: widget.height,
+                    fit: BoxFit.cover,
+                  ),
+                  _hovering
+                      ? FadeTransition(
+                    opacity: _opacityAnimation,
+                    child: Container(
+                      width: widget.width,
+                      height: widget.height,
+                      color: widget.hoverColor,
+                      child: Column(
+                        children: [
+                          Spacer(flex: 1),
+                          SelectableText(
+                            widget.title,
+                            textAlign: TextAlign.center,
+                            style: widget.titleTextStyle ??
+                                textTheme.headline4?.copyWith(
+                                  fontSize: widthOfScreen(context) >
+                                      RefinedBreakpoints().tabletSmall
+                                      ? Sizes.TEXT_SIZE_34
+                                      : Sizes.TEXT_SIZE_24,
+                                  color: AppColors.white,
+                                ),
+                          ),
+                          SpaceH4(),
+                          SelectableText(
+                            widget.subtitle,
+                            textAlign: TextAlign.center,
+                            style: widget.subtitleTextStyle ??
+                                textTheme.bodyText1?.copyWith(
+                                  color: AppColors.white,
+                                  fontSize: Sizes.TEXT_SIZE_16,
+                                ),
+                          ),
+                          SpaceH16(),
+                          widget.hasActionTitle
+                              ? SelectableText(
+                            widget.actionTitle,
+                            textAlign: TextAlign.center,
+                            style: widget.actionTitleTextStyle ??
+                                textTheme.subtitle1?.copyWith(
+                                  color: AppColors.secondaryColor,
+                                ),
+                          )
+                              : Container(),
+                          SpaceH4(),
+                          HorizontalBar(color: AppColors.secondaryColor),
+                          Spacer(flex: 1),
+                        ],
                       ),
-                    )
-                  : Container(),
-            ],
+                    ),
+                  )
+                      : Container(),
+                ],
+              ),
+            ),
           ),
         ),
-      ),
+        widget.hasBottomTitle ? SpaceH8(): Empty(),
+        widget.hasBottomTitle ?  SelectableText(
+          widget.title,
+          textAlign: TextAlign.center,
+          style: widget.titleTextStyle ??
+              textTheme.headline4?.copyWith(
+                fontSize: widthOfScreen(context) >
+                    RefinedBreakpoints().tabletSmall
+                    ? Sizes.TEXT_SIZE_24
+                    : Sizes.TEXT_SIZE_20,
+                color: AppColors.primaryText,
+              ) ,
+        ): Empty()
+      ],
     );
   }
 
   void _mouseEnter(bool hovering) {
+
     setState(() {
       _hovering = hovering;
     });

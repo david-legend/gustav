@@ -3,16 +3,18 @@ import 'package:amor/values/values.dart';
 import 'package:flutter/material.dart';
 
 class PortfolioData {
+  final String url;
   final String imageUrl;
   final String title;
-  final double? width;
-  final double? height;
+  final String client;
+  final double imageSize;
 
   const PortfolioData({
     required this.imageUrl,
     required this.title,
-    this.width,
-    this.height,
+    required this.url,
+    required this.client,
+    this.imageSize = 0.30,
   });
 }
 

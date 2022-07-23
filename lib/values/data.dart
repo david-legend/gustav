@@ -86,28 +86,28 @@ class Data {
   static List<CertificationData> certificationData = [
     CertificationData(
       title: StringConst.DATA_SCIENCE_CERT,
-      url: " ",
+      url: DocumentPath.BANGLADESH,
       image: ImagePath.DATA_SCIENCE_STORAGE_CERT,
       imageSize: 0.30,
       awardedBy: StringConst.COURSERA,
     ),
     CertificationData(
       title: StringConst.ENERGY_STORAGE,
-      url: " ",
+      url: DocumentPath.GRAPHITE,
       image: ImagePath.ENERGY_STORAGE_CERT,
       imageSize: 0.30,
       awardedBy: StringConst.GOOGLE,
     ),
     CertificationData(
       title: StringConst.SOLAR_INSTALLATION,
-      url: " ",
+      url: DocumentPath.LARGE_CAPACITY,
       image: ImagePath.SOLAR_INSTALLATION,
       imageSize: 0.30,
       awardedBy: StringConst.GOOGLE,
     ),
     CertificationData(
       title: StringConst.SOLAR_ENERGY_DESIGN,
-      url: " ",
+      url: DocumentPath.GREECE,
       image: ImagePath.SOLAR_SYSTEM_DESIGN,
       imageSize: 0.30,
       awardedBy: StringConst.COURSERA,
@@ -116,36 +116,28 @@ class Data {
 
   static List<PortfolioData> portfolioData = [
     PortfolioData(
-      imageUrl: ImagePath.art_1,
-      title: StringConst.DIGITAL_WALL_POSTER,
+      imageUrl: ImagePath.SOLAR_PROJECT_1,
+      url: "",
+      client: "Netherlands Authority",
+      title: StringConst.SOLAR_PROJECT_1,
     ),
     PortfolioData(
-      imageUrl: ImagePath.art_2,
-      title: StringConst.FREESTYLE,
+      imageUrl: ImagePath.SOLAR_PROJECT_2,
+      url: "",
+      client: "Netherlands Authority",
+      title: StringConst.SOLAR_PROJECT_2,
     ),
     PortfolioData(
-      imageUrl: ImagePath.art_3,
-      title: StringConst.AURORA_PISTON,
+      imageUrl: ImagePath.SOLAR_PROJECT_3,
+      url: "",
+      client: "Netherlands Authority",
+      title: StringConst.SOLAR_PROJECT_3,
     ),
     PortfolioData(
-      imageUrl: ImagePath.art_4,
-      title: StringConst.SPACE_STORY,
-    ),
-    PortfolioData(
-      imageUrl: ImagePath.art_5,
-      title: StringConst.ABYSS,
-    ),
-    PortfolioData(
-      imageUrl: ImagePath.art_7,
-      title: StringConst.STREET_ART,
-    ),
-    PortfolioData(
-      imageUrl: ImagePath.art_6,
-      title: StringConst.MURAL_PRIDE,
-    ),
-    PortfolioData(
-      imageUrl: ImagePath.art_8,
-      title: StringConst.SOUL_TEARS,
+      imageUrl: ImagePath.SOLAR_PROJECT_4,
+      url: "",
+      client: "Netherlands Authority",
+      title: StringConst.SOLAR_PROJECT_4,
     ),
   ];
 }
