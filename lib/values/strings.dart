@@ -136,7 +136,11 @@ class StringConst {
   static const RISA = "RISA";
   static const ASSOCIATE_ANDROID_DEV_CERT = "Associate Android Developer";
   static const GOOGLE = "Google";
-  static const DATA_SCIENCE_CERT = "Data Science";
+  static const DATA_SCIENCE_CERT = "Data Science In Python";
+  static const ENERGY_STORAGE = "Energy Storage";
+  static const SOLAR_INSTALLATION = "Solar Installation";
+  static const SOLAR_ENERGY_DESIGN = "Solar Energy System Design";
+  static const COURSERA = "Coursera";
   static const UDACITY = "Udacity";
 
   //Portfolio Section

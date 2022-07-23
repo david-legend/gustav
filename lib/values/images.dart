@@ -9,7 +9,10 @@ class ImagePath {
   static const String IOT_CERT = "$imageDir/iot_cert.png";
   static const String ASSOCIATE_ANDROID_DEV_CERT =
       "$imageDir/associate_android_dev.png";
-  static const String DATA_SCIENCE_CERT = "$imageDir/data_science_cert.png";
+  static const String DATA_SCIENCE_STORAGE_CERT = "$imageDir/data_science_python.png";
+  static const String ENERGY_STORAGE_CERT = "$imageDir/energy_storage.png";
+  static const String SOLAR_SYSTEM_DESIGN = "$imageDir/solar_system_design.png";
+  static const String SOLAR_INSTALLATION = "$imageDir/solar_installation.png";
 
   static const String GHANA_FLAG = "$imageDir/ghana_flag.png";
 

@@ -87,16 +87,30 @@ class Data {
     CertificationData(
       title: StringConst.DATA_SCIENCE_CERT,
       url: " ",
-      image: ImagePath.DATA_SCIENCE_CERT,
+      image: ImagePath.DATA_SCIENCE_STORAGE_CERT,
       imageSize: 0.30,
-      awardedBy: StringConst.UDACITY,
+      awardedBy: StringConst.COURSERA,
     ),
     CertificationData(
-      title: StringConst.ASSOCIATE_ANDROID_DEV_CERT,
+      title: StringConst.ENERGY_STORAGE,
       url: " ",
-      image: ImagePath.ASSOCIATE_ANDROID_DEV_CERT,
+      image: ImagePath.ENERGY_STORAGE_CERT,
       imageSize: 0.30,
       awardedBy: StringConst.GOOGLE,
+    ),
+    CertificationData(
+      title: StringConst.SOLAR_INSTALLATION,
+      url: " ",
+      image: ImagePath.SOLAR_INSTALLATION,
+      imageSize: 0.30,
+      awardedBy: StringConst.GOOGLE,
+    ),
+    CertificationData(
+      title: StringConst.SOLAR_ENERGY_DESIGN,
+      url: " ",
+      image: ImagePath.SOLAR_SYSTEM_DESIGN,
+      imageSize: 0.30,
+      awardedBy: StringConst.COURSERA,
     )
   ];
 
