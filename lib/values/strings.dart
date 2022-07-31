@@ -137,7 +137,7 @@ class StringConst {
   static const ASSOCIATE_ANDROID_DEV_CERT = "Associate Android Developer";
   static const GOOGLE = "Google";
   static const UNIVERSITY_OF_ZIELONA = "University of Zielona Góra";
-  static const UNIVERSITY_OF_ZIELONA_URL = "https://drive.google.com/file/d/19LImUjfUBns-aOfqrw-hiJOrtwf7lx0E/view?usp=sharing";
+  static const UNIVERSITY_OF_ZIELONA_URL = "https://drive.google.com/file/d/1Q1ezVnJoqCvFE2xbatg4seEx1TR9l9jO/view?usp=sharing";
   static const INT_EDUCATION = "INT Education Services";
   static const INT_EDUCATION_URL = "https://drive.google.com/file/d/19LImUjfUBns-aOfqrw-hiJOrtwf7lx0E/view?usp=sharing";
   static const DATA_SCIENCE_CERT = "Data Science In Python";
