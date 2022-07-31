@@ -117,27 +117,27 @@ class Data {
   static List<PortfolioData> portfolioData = [
     PortfolioData(
       imageUrl: ImagePath.SOLAR_PROJECT_1,
-      url: DocumentPath.BANGLADESH,
-      client: "Netherlands Authority",
-      title: StringConst.SOLAR_PROJECT_1,
+      url: DocumentPath.GREECE,
+      client: StringConst.GREECE_PROJECT_TAG,
+      title: StringConst.GREECE_PROJECT,
     ),
     PortfolioData(
       imageUrl: ImagePath.SOLAR_PROJECT_2,
-      url: DocumentPath.GRAPHITE,
-      client: "Netherlands Authority",
-      title: StringConst.SOLAR_PROJECT_2,
+      url: DocumentPath.LARGE_CAPACITY,
+      client: StringConst.NETHERLANDS_PROJECT_TAG,
+      title: StringConst.NETHERLANDS_PROJECT,
     ),
     PortfolioData(
       imageUrl: ImagePath.SOLAR_PROJECT_3,
-      url: DocumentPath.LARGE_CAPACITY,
-      client: "Netherlands Authority",
-      title: StringConst.SOLAR_PROJECT_3,
+      url: DocumentPath.BANGLADESH,
+      client: StringConst.BANGLADESH_PROJECT_TAG,
+      title: StringConst.BANGLADESH_PROJECT,
     ),
     PortfolioData(
       imageUrl: ImagePath.SOLAR_PROJECT_4,
-      url: DocumentPath.GREECE,
-      client: "Netherlands Authority",
-      title: StringConst.SOLAR_PROJECT_4,
+      url: DocumentPath.LIMPOPO_GRAPHITE,
+      client: StringConst.LIMPOPO_GRID_PROJECT_TAG,
+      title: StringConst.LIMPOPO_GRID_PROJECT,
     ),
   ];
 }

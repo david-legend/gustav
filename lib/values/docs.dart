@@ -7,8 +7,8 @@ class DocumentPath {
 
   //Docs
   static const String CV = "$docDir/THEODORE_ANDOH_CV.pdf";
-  static const String BANGLADESH = "$docDir/Bangledesh_University_Offgrid.pdf";
-  static const String GRAPHITE = "$docDir/Graphite_Mine_Limpopo.pdf";
   static const String GREECE = "$docDir/Large_Capacity_Greece_1MW_design.pdf";
   static const String LARGE_CAPACITY = "$docDir/Large_Capacity_Project_Report.pdf";
+  static const String BANGLADESH = "$docDir/Bangledesh_University_Offgrid.pdf";
+  static const String LIMPOPO_GRAPHITE = "$docDir/Graphite_Mine_Limpopo.pdf";
 }
