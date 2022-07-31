@@ -11,6 +11,7 @@ class StringConst {
   static const String RESUME = "Resume";
   static const String SKILLS_AND_CERTIFICATION = "Skills & Certifications";
   static const String CONTACT = "Contact Me";
+  static const String CV = "CV";
 
   //Header Section
   static const String INTRO = "Hello! I'm";
@@ -122,6 +123,7 @@ class StringConst {
   //Skills Section
   static const String MY_CODING = "My Coding";
   static const String SKILLS = "Skills";
+  static const String PROJECTS = "Projects";
   static const String CERTIFICATIONS = "Certifications";
 
   static const String PV_SYST = "PvSyst";

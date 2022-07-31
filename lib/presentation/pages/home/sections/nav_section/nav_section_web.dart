@@ -1,5 +1,6 @@
 import 'package:amor/presentation/layout/adaptive.dart';
 import 'package:amor/presentation/widgets/content_area.dart';
+import 'package:amor/presentation/widgets/empty.dart';
 import 'package:amor/presentation/widgets/nav_item.dart';
 import 'package:amor/presentation/widgets/spaces.dart';
 import 'package:amor/utils/functions.dart';
@@ -92,7 +93,7 @@ class _NavSectionWebState extends State<NavSectionWeb> {
                   builder: (context, sizingInformation) {
                     double screenWidth = sizingInformation.screenSize.width;
                     //TODO:: Use this for actual.. if (screenWidth >= RefinedBreakpoints().tabletSmall &&  screenWidth < RefinedBreakpoints().tabletNormal) {
-                    if (screenWidth < RefinedBreakpoints().tabletExtraLarge) {
+                    if (screenWidth < RefinedBreakpoints().desktopSmall) {
                       return NavItem(
                         title: StringConst.SKILLS,
                         isSelected: widget.navItems[3].isSelected,
@@ -114,20 +115,55 @@ class _NavSectionWebState extends State<NavSectionWeb> {
                   },
                 ),
                 horizontalSpacing(),
-                NavItem(
-                  title: widget.navItems[4].name,
-                  isSelected: widget.navItems[4].isSelected,
-                  onTap: () => _onTapNavItem(
-                    context: widget.navItems[4].key,
-                    navItemName: widget.navItems[4].name,
-                  ),
+                ResponsiveBuilder(
+                  refinedBreakpoints: RefinedBreakpoints(),
+                  builder: (context, sizingInformation) {
+                    double screenWidth = sizingInformation.screenSize.width;
+                   if (screenWidth < RefinedBreakpoints().tabletExtraLarge) {
+                      return NavItem(
+                        title: StringConst.PROJECTS,
+                        isSelected: widget.navItems[3].isSelected,
+                        onTap: () => _onTapNavItem(
+                          context: widget.navItems[3].key,
+                          navItemName: widget.navItems[3].name,
+                        ),
+                      );
+                    } else {
+                      return NavItem(
+                        title: widget.navItems[4].name,
+                        isSelected: widget.navItems[4].isSelected,
+                        onTap: () => _onTapNavItem(
+                          context: widget.navItems[4].key,
+                          navItemName: widget.navItems[4].name,
+                        ),
+                      );
+                    }
+                  },
                 ),
+
                 horizontalSpacing(),
                 NavItem(
                   title: widget.navItems[5].name,
                   isSelected: widget.navItems[5].isSelected,
                   onTap: () => openUrlLink(StringConst.EMAIL_URL),
                 ),
+                horizontalSpacing(),
+                ResponsiveBuilder(
+                  refinedBreakpoints: RefinedBreakpoints(),
+                  builder: (context, sizingInformation) {
+                    double screenWidth = sizingInformation.screenSize.width;
+                    if (screenWidth > RefinedBreakpoints().desktopSmall) {
+                      return NavItem(
+                        title: widget.navItems[6].name,
+                        isSelected: widget.navItems[6].isSelected,
+                        onTap: () => openUrlLink(StringConst.CV_URL),
+                      );
+                    } else {
+                      return Empty();
+                    }
+                  },
+                ),
+
               ],
             ),
           ),
