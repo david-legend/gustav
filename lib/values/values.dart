@@ -18,5 +18,4 @@ part 'data.dart';
 part 'gradients.dart';
 part 'decoration.dart';
 part 'shadows.dart';
-part 'docs.dart';
 part 'radius.dart';
