@@ -136,10 +136,16 @@ class StringConst {
   static const RISA = "RISA";
   static const ASSOCIATE_ANDROID_DEV_CERT = "Associate Android Developer";
   static const GOOGLE = "Google";
+  static const UNIVERSITY_OF_ZIELONA = "University of Zielona Góra";
+  static const UNIVERSITY_OF_ZIELONA_URL = "https://drive.google.com/file/d/19LImUjfUBns-aOfqrw-hiJOrtwf7lx0E/view?usp=sharing";
+  static const INT_EDUCATION = "INT Education Services";
+  static const INT_EDUCATION_URL = "https://drive.google.com/file/d/19LImUjfUBns-aOfqrw-hiJOrtwf7lx0E/view?usp=sharing";
   static const DATA_SCIENCE_CERT = "Data Science In Python";
+  static const DATA_SCIENCE_CERT_URL = "https://coursera.org/verify/U3X836AFN4V8";
   static const ENERGY_STORAGE = "Energy Storage";
   static const SOLAR_INSTALLATION = "Solar Installation";
   static const SOLAR_ENERGY_DESIGN = "Solar Energy System Design";
+  static const SOLAR_ENERGY_DESIGN_URL = "https://coursera.org/verify/7APXSPMN6KRH";
   static const COURSERA = "Coursera";
   static const UDACITY = "Udacity";
 

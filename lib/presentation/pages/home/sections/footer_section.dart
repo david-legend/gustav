@@ -81,13 +81,11 @@ class FooterSection extends StatelessWidget {
                       iconColor: AppColors.offWhite,
                       icons: [
                         FontAwesomeIcons.linkedin,
-                        FontAwesomeIcons.github,
-                        FontAwesomeIcons.twitter,
+                        FontAwesomeIcons.telegram,
                       ],
                       socialLinks: [
                         StringConst.LINKED_IN_URL,
-                        StringConst.GITHUB_URL,
-                        StringConst.TWITTER_URL,
+                        StringConst.TELEGRAM_URL,
                       ],
                       spacing: kSpacing20,
                     ),
@@ -104,13 +102,11 @@ class FooterSection extends StatelessWidget {
                       iconColor: AppColors.offWhite,
                       icons: [
                         FontAwesomeIcons.linkedin,
-                        FontAwesomeIcons.github,
-                        FontAwesomeIcons.twitter,
+                        FontAwesomeIcons.telegram,
                       ],
                       socialLinks: [
                         StringConst.LINKED_IN_URL,
-                        StringConst.GITHUB_URL,
-                        StringConst.TWITTER_URL,
+                        StringConst.TELEGRAM_URL,
                       ],
                       spacing: kSpacing20,
                     ),

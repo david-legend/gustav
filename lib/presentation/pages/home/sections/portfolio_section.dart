@@ -46,19 +46,19 @@ class _PortfolioSectionState extends State<PortfolioSection> {
   }
 
   List<Widget> _buildCertification(List<PortfolioData> data) {
-    List<Widget> certifications = [];
+    List<Widget> projects = [];
     double smWidth = assignWidth(context, 0.3);
     double lgWidth = assignWidth(context, 0.5);
     double smHeight = assignHeight(context, 0.3);
     double lgHeight = assignHeight(context, 0.45);
-    double certificateHeight = context.layout.value(
+    double projectCardHeight = context.layout.value(
       xs: smHeight,
       sm: smHeight,
       md: lgHeight,
       lg: lgHeight,
       xl: lgHeight,
     );
-    double certificateWidth = context.layout.value(
+    double projectCardWidth = context.layout.value(
       xs: lgWidth,
       sm: smWidth,
       md: smWidth,
@@ -67,7 +67,7 @@ class _PortfolioSectionState extends State<PortfolioSection> {
     );
 
     for (int i = 0; i < data.length; i++) {
-      certifications.add(
+      projects.add(
         CertificationCard(
           hasBottomTitle: true,
           imageUrl: data[i].imageUrl,
@@ -78,11 +78,11 @@ class _PortfolioSectionState extends State<PortfolioSection> {
             color: AppColors.purple50,
             width: Sizes.WIDTH_2,
           ),
-          height: certificateHeight,
-          width: certificateWidth,
+          height: projectCardHeight,
+          width: projectCardWidth,
         ),
       );
     }
-    return certifications;
+    return projects;
   }
 }
