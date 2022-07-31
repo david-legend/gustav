@@ -41,6 +41,7 @@ class StringConst {
   static const String MY = "My";
 
   static const String EDUCATION = "Education";
+  static const String CV_URL = "https://drive.google.com/file/d/1ycBByNRH3Uj4rttEHcSTIxx7h2SzmHzH/view?usp=sharing";
 
   //Education Section Data
   static const String EDUCATION_CURRENT_MONTH_YEAR = "June 2022";
@@ -159,22 +160,20 @@ class StringConst {
   static const String ALL = "All";
   static const String GREECE_PROJECT = "Large Megawatt with Bi-facial 1MW ";
   static const String GREECE_PROJECT_TAG = "Bi-facial 1MW ";
+  static const String GREECE_PROJECT_URL = "https://drive.google.com/file/d/1H9NJJANRNHoaHpGmrI4yHQd6Oa-F_137/view?usp=sharing";
   static const String NETHERLANDS_PROJECT = "Home Grid Tied 5kW";
   static const String NETHERLANDS_PROJECT_TAG = "Netherlands Home";
+  static const String NETHERLANDS_PROJECT_URL = "https://drive.google.com/file/d/1goaFOS9TAztG7L_6635cz8vP6SystxS7/view?usp=sharing";
   static const String BANGLADESH_PROJECT = "Grid Tied Bangladesh";
   static const String BANGLADESH_PROJECT_TAG = "Bangladesh Grid Tied 3.6Kwp";
+  static const String BANGLADESH_PROJECT_URL = "https://drive.google.com/file/d/1r46DI28BM9vo95zEeJyFUAfbHbKBwpy8/view?usp=sharing";
   static const String LIMPOPO_GRID_PROJECT = "Stand Alone System";
   static const String LIMPOPO_GRID_PROJECT_TAG = "Graphite Mine Limpopo 3505 Kwp";
-  static const String SPACE_STORY = "Space Story";
-  static const String STREET_ART = "Street Art";
-  static const String SOUL_TEARS = "Soul Tears";
-  static const String MURAL_PRIDE = "Mural Pride";
-  static const String ABYSS = "Abyss";
-  static const String AURORA_PISTON = "Aurora Piston";
-  static const String FREESTYLE = "Freestyle";
+  static const String LIMPOPO_GRID_PROJECT_URL = "https://drive.google.com/file/d/1bLSxZsQ5m3iLWtgOaIqLen1kaR3TU-iK/view?usp=sharing";
+
 
   //Footer Section
-  static const String RIGHTS_RESERVED = "© 2021 All rights reserved";
+  static const String RIGHTS_RESERVED = "© 2022 All rights reserved";
   static const String BUILT_BY = "Built with Flutter by";
   static const String DAVID_COBBINA = "David Cobbina";
   static const String DESIGNED_BY = "Designed by";
