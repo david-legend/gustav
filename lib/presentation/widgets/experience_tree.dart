@@ -233,7 +233,7 @@ class _ExperienceBranchState extends State<ExperienceBranch> {
   void initState() {
     offsetRoleLeaf = (widget.height / 5) - 10;
     offsetLocationLeaf = (widget.height / 2) - 16;
-    WidgetsBinding.instance?.addPostFrameCallback((_) {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
       _getHeightOfRoleLeaf();
     });
     super.initState();
